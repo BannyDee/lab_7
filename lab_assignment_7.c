@@ -14,7 +14,10 @@ int array[size];
 for(int j=0; j < size;j++){
         array[j] = given[j];
 }
-int values[9]={0,0,0,0,0,0,0,0,0};
+int values[size];
+for(int k=0;k < size;k++){
+    values[k]=0;
+}
 final = 0;
 for(i=0; i < (size-1);i++){
     for(j=0;j<(size-i-1);j++){
