@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-void swap(int *xp, int *yp){
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
-
 int bubbleCount(int index, int given[],int size){
 int final, i, j, temp;
 int array[size];
